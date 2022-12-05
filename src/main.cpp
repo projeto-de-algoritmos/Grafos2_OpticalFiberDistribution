@@ -1,12 +1,15 @@
 #include <iostream>
 
+#include "../inc/Map2D.h"
+
 int main() {
 
-  int x{42};
+  Map2D teste;
 
-  x = 1618;
+  teste.generateNodes();
+  teste.printMap();
 
-  std::cout << "Hello World : " << x << '\n';
+  std::cout << "Olá mundo" << '\n';
 
   return 0;
 

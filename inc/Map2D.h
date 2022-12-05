@@ -2,8 +2,9 @@
 
 #include <iostream>
 
-const __uint8_t AXIS_X {30};
-const __uint8_t AXIS_Y {13};
+
+const __uint8_t AXIS_X {45};
+const __uint8_t AXIS_Y {18};
 const __uint8_t NUMBER_NODES {123};
 
 class Map2D {

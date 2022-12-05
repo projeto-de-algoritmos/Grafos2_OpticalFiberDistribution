@@ -7,7 +7,7 @@ SRCFOLDER := src/
 # .o
 OBJFOLDER := obj/
 CC := g++
-CFLAGS := -W -Wall -ansi -std=c++11 -pedantic -ggdb
+CFLAGS := -W -Wall -std=c++14 -ggdb
 SRCFILES := $(wildcard src/*.cpp)
 all: $(SRCFILES:src/%.cpp=obj/%.o)
 	$(CC) $(CFLAGS) obj/*.o -o bin/prog
