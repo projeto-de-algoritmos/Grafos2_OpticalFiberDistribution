@@ -4,9 +4,11 @@
 #include <vector>
 #include <algorithm>
 
-const u_int8_t NUMBER_STREETS {2000};
+#include "Map2D.h"
 
-class Graph
+const u_int8_t NUMBER_STREETS {148};
+
+class Graph : public Map2D
 {
 private:
     int v;
@@ -18,7 +20,7 @@ public:
     ~Graph();
 
     void addEdge(int u, int v, int p);
-    int primAlgorithm (int startNode);
+    int primAlgorithm ( int startNode );
 
     int getV();
 };
