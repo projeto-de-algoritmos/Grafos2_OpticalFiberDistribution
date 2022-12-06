@@ -335,6 +335,58 @@ void Map2D::generateNodes()
     mapSize[16][46] = 102;
     mapSize[16][47] = 383;
 
+    mapSize[9][44] = 381;
+    mapSize[10][44] = 381;
+    mapSize[11][44] = 381;
+    mapSize[12][44] = 91;
+    mapSize[13][44] = 381;
+    mapSize[14][44] = 381;
+    mapSize[15][44] = 381;
+    mapSize[16][44] = 101;
+    mapSize[16][45] = 383;
+
+    mapSize[9][42] = 381;
+    mapSize[10][42] = 381;
+    mapSize[11][42] = 381;
+    mapSize[12][42] = 90;
+    mapSize[13][42] = 381;
+    mapSize[14][42] = 381;
+    mapSize[15][42] = 381;
+    mapSize[16][42] = 100;
+    mapSize[16][43] = 383;
+
+    mapSize[9][40] = 381;
+    mapSize[10][40] = 381;
+    mapSize[11][40] = 381;
+    mapSize[12][40] = 89;
+    mapSize[13][40] = 381;
+    mapSize[14][40] = 381;
+    mapSize[15][40] = 381;
+    mapSize[16][40] = 99;
+    mapSize[16][41] = 383;
+
+    mapSize[12][39] = 383;
+    mapSize[12][38] = 88;
+    mapSize[12][37] = 383;
+    mapSize[12][36] = 87;
+    mapSize[12][35] = 383;
+    mapSize[12][34] = 86;
+
+    mapSize[11][38] = 381;
+    mapSize[10][38] = 381;
+    mapSize[9][38] = 381;
+
+    mapSize[11][34] = 381;
+    mapSize[10][34] = 381;
+    mapSize[9][34] = 381;
+
+    mapSize[11][36] = 381;
+    mapSize[10][36] = 381;
+    mapSize[9][36] = 381;
+
+    
+
+
     mapSize[16][51] = 383;
     mapSize[16][52] = 105;
 
