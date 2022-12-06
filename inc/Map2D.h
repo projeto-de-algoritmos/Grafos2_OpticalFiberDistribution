@@ -9,13 +9,12 @@ const __uint8_t NUMBER_NODES {123};
 
 class Map2D {
 
-private:
+public:
+
     int mapSize[AXIS_Y][AXIS_X];
     int statusTower[NUMBER_NODES];
 
     int statusStreet[AXIS_Y][AXIS_X];
-
-public:
 
     Map2D();
     ~Map2D();
@@ -23,5 +22,10 @@ public:
     void printMap();
     void clearMap();
     void generateNodes();
+    
+    void visitedStreet( int towerOne , int towerTwo);
+
+    int getStatusTower( int node );
+    void setStatusTower( int node, int value );
 
 };
