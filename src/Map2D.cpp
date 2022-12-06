@@ -225,6 +225,10 @@ void Map2D::generateNodes()
     mapSize[16][24] = 382;
 
     mapSize[8][25] = 383;
+
+    mapSize[2][26] = 381;
+    mapSize[1][26] = 381;
+
     mapSize[8][26] = 55;
     mapSize[9][26] = 382;
     mapSize[10][26] = 382;
