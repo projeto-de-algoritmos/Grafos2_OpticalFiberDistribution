@@ -67,6 +67,7 @@ int main() {
 				std::cout << "Digite a distancia (1 - 10000): ";
 				std::cin >> distancia;
 
+				teste.cleanVector(no1, no2);
                 teste.addEdge(no1 , no2, distancia);
 
                 std::cout << "Digite um nó de 1 a 105 para iniciar: ";

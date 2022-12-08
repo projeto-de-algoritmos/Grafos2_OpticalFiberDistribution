@@ -26,6 +26,7 @@ public:
 
     void addEdge(int u, int v, int p);
     int primAlgorithm ( int startNode );
+    void cleanVector ( int u, int v );
 
     int getV();
 };

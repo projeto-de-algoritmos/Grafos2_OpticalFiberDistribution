@@ -20,6 +20,12 @@ void Graph::addEdge( int u, int v, int p)
     adj[v].push_back( pii(p, u) );
 }
 
+void Graph::cleanVector( int u, int v)
+{
+    adj[u].erase(std::remove_if(adj[u].begin(), adj[u].end(), [&, v](std::pair<int,int> pair){ return pair.second == v; }));
+    adj[v].erase(std::remove_if(adj[v].begin(), adj[v].end(), [&, u](std::pair<int,int> pair){ return pair.second == u; }));
+}
+
 int Graph::primAlgorithm ( int startNode )
 {
     for( auto & value : weight ) value = BIG_NUMBER;
