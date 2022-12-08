@@ -64,6 +64,11 @@ void Map2D::printMap()
 
 void Map2D::clearMap()
 {
+    for (int i{0}; i < AXIS_Y; i++)
+    for (int j{0}; j < AXIS_X; j++)
+    {
+        statusStreet[i][j] = 0;
+    }
 }
 
 int Map2D::getStatusTower( int node )
@@ -78,8 +83,6 @@ void Map2D::setStatusTower( int node, int value )
 
 void Map2D::visitedStreet( int towerOne , int towerTwo)
 {
-    std::cout << "Rua : " << towerOne << " Rua : " << towerTwo << '\n';
-
     if ( (towerOne == 1 && towerTwo == 2) || (towerTwo == 1 && towerOne == 2)  ) {
         statusStreet[0][1] = 1;
     }

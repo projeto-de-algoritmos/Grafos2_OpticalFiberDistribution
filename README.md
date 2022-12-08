@@ -24,12 +24,14 @@ Mostrando no final o mapa e o total de metros de cabo.
 
 ## Screenshots
 
-TODO CLI
+![mapaConsole](docs/mapaConsole.png)
+
+![mapaConsolePrint](docs/mapaConsolePrint.png)
 
 ## Instalação
 **Linguagem**: C++<br>
 
-Feito e usado no kernel: **Linux 5.4.0-45-generic x86_64**
+Feito e usado no kernel: **Linux 6.0.10-arch2-1 x86_64**
 
 Tenha o *git*, *make* e o compilador *c++* versão C++11 instalado na sua maquina.
 De preferência, para não ocorrer problemas, use o Ubuntu.

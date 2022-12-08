@@ -70,8 +70,10 @@ int Graph::primAlgorithm ( int startNode )
 
 	int custo_arvore = 0;
 	for(int k = 1;k <= v;k++) {
-        custo_arvore += weight[k];
 
+        if( k > 105 ) break;
+
+        custo_arvore += weight[k];
         for(int i = 0;i < (int)adj[k].size();i++) {
 
 			int atual = adj[k][i].second;
