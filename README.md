@@ -13,7 +13,7 @@
 https://youtu.be/urMF_XFnVng
 
 ## Sobre
-A ideia do projeto é fazer uma distribuição de fibra óptica no Condomínio Porto Rico - DF.
+A ideia do projeto é fazer uma distribuição de fibra óptica no Condomínio Porto Rico que fica na parte sul da Cidade de Santa Maria - DF.
 
 ![portoRicoDelinear](docs/portoRicoDelinear.jpg)
 
