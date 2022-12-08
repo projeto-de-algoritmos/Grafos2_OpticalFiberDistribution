@@ -94,15 +94,13 @@ int main() {
             case 0 :
 
 
-                teste.~Graph();
-
                 return 0;
 
 
                 break;
             default:
-                std::cout << "Escolha invalida!" << '\n';
-                break;
+            std::cout << "Escolha invalida!" << '\n';
+            break;
         }
     }
 

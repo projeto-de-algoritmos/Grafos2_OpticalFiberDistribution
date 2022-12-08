@@ -14,6 +14,4 @@ public:
 
     void connectStreetAndTowers();
 
-    std::string mapConverter( int lines, int columns );
-
 };
