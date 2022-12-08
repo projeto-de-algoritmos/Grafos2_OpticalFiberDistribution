@@ -164,6 +164,7 @@ Engine::Engine()
   addEdge(94 ,104, 96);
   addEdge(103, 104, 53);
   addEdge(104, 105, 40);
+  addEdge(72, 78, 204);
 
 
 }

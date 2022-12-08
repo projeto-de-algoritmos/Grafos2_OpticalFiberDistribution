@@ -9,7 +9,7 @@ int main() {
 
   teste.printMap();
 
-  teste.primAlgorithm(20);
+  teste.primAlgorithm(48);
 
   sleep(2);
 
